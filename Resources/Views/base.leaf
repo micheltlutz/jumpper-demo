@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>#get(title)</title>
+    <link rel="stylesheet" href="/styles/milligram.min.css">
+    <meta property="og:site_name" content="#get(title)">
+    <meta property="og:title" content="#get(title)">
+    <meta property="og:description" content="">
+</head>
+<body>
+    #get(body)
+</body>
+</html>
