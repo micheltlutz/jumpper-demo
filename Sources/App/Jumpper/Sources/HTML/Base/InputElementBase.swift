@@ -7,10 +7,16 @@
 
 import Foundation
 
-class InputElementBase: GenericElement {
+public class InputElementBase: GenericElement {
     override var tag: String {
         get {
             return "input"
+        }
+    }
+
+    override var container: Bool {
+        get {
+            return false
         }
     }
 
@@ -19,11 +25,5 @@ class InputElementBase: GenericElement {
 
         self.addAttribute(("value", value))
         self.addAttribute(("type", type))
-    }
-
-    override var container: Bool {
-        get {
-            return false
-        }
     }
 }

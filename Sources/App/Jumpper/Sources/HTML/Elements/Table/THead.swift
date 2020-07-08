@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+public final class THead: TableRowBase {
+    override var tag: String {
+        get {
+            return "thead"
+        }
+    }
+}

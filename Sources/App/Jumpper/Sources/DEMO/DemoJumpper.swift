@@ -166,13 +166,51 @@ struct DemoJumpper {
         section.add(description)
         //
 
+        let table = Table()
+        table.tableHeaders(titles: ["Name", "Age", "Height", "Location"])
+//        table.tableHeaders(titles: ["Name", "Age", "Height", "Location"], aligns: ["center", "left", "left", "left"])
+
+        table.addRow()
+        table.addInRow("Stephen Curry")
+        table.addInRow("27")
+        table.addInRow("1,91")
+        table.addInRow("Akron, OH")
+        table.addRow()
+        table.addInRow("Klay Thompson")
+        table.addInRow("25")
+        table.addInRow("2,01")
+        table.addInRow("Los Angeles, CA")
+
+        section.add(table)
         return section
+    }
+
+    // MARK: - Img
+    private func img() -> GenericElement {
+        let img = Img("images/banner.png")
+
+        return img
+    }
+
+    // MARK: - Developed by
+    private func developedBy() -> GenericElement {
+        let clearDiv = Div(("class", "clearfix"))
+        let divRight = Div(("class", "float-right"))
+
+        let link = Link(("href","https://micheltlutz.me"), ("target","_blank"))
+        link.add("Developed by Michel Lutz - micheltlutz.me 🚀")
+
+        divRight.add(link)
+        clearDiv.add(divRight)
+
+        return clearDiv
     }
 
     // MARK: - Main
     func main() -> GenericElement {
         let main = Main(("class","wrapper"))
-        ///Typography
+        main.add(img())
+        main.add(Hr())
         main.add(typography())
         main.add(Hr())
         main.add(buttons())
@@ -181,17 +219,9 @@ struct DemoJumpper {
         main.add(Hr())
         main.add(forms())
         main.add(Hr())
-
-//
-//        let link = Link(("href","https://micheltlutz.me"), ("target","_blank"))
-//        link.add("Developed by Michel Lutz")
-//        mainDiv.add(link)
-//
-//        let fieldDiv = Div()
-//        fieldDiv.add("This is a new V-Engine - 🚀 - by micheltlutz.me ")
-//
-//        mainDiv.add(fieldDiv)
-//        mainDiv.add(Hr())
+        main.add(table())
+        main.add(Hr())
+        main.add(developedBy())
 
         return main
     }

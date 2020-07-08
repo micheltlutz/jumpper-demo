@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+public final class TBody: TableRowBase {
+    override var tag: String {
+        get {
+            return "tbody"
+        }
+    }
+}

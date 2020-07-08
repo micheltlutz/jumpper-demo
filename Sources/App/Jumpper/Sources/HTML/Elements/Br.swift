@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class Br: GenericElement {
+public final class Br: GenericElement {
     override var tag: String {
         get {
             return "br"

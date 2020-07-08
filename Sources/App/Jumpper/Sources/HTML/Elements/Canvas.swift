@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class Canvas: GenericElement {
+public final class Canvas: GenericElement {
     override var tag: String {
         get {
             return "canvas"
@@ -20,7 +20,7 @@ final class Canvas: GenericElement {
         }
     }
 
-    func add<T>(_ element: T) {
+    public func add<T>(_ element: T) {
         if let textElement = element as? String {
             let text = factoryTextWith(textElement)
 

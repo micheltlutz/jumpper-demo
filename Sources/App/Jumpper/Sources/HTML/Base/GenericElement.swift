@@ -18,17 +18,21 @@ public class GenericElement: Element {
         self.attributes = attributes
     }
 
+    public init(_ attributes: [AttributeType]){
+        self.attributes = attributes
+    }
+
     public func addAttribute(_ attr: AttributeType) {
         attributes.append(attr)
     }
 
-    private func openTag() -> String {
+    func openTag() -> String {
         let attr = Attribute(attributes)
 
         return "<\(tag)\(attr.generate())>"
     }
 
-    private func closeTag() -> String {
+    func closeTag() -> String {
         return "</"+tag+">"
     }
 

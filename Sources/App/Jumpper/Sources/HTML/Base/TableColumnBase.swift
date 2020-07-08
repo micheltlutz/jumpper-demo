@@ -1,19 +1,13 @@
 //
-//  Td.swift
+//  TableColumnBase.swift
 //  App
 //
-//  Created by Michel Anderson Lutz Teixeira on 06/07/20.
+//  Created by Michel Anderson Lutz Teixeira on 07/07/20.
 //
 
 import Foundation
 
-public final class Td: GenericElement {
-    override var tag: String {
-        get {
-            return "td"
-        }
-    }
-
+public class TableColumnBase: GenericElement {
     override var container: Bool {
         get {
             return true

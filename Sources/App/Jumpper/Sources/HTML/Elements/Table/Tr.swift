@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+public final class Tr: TableRowBase {
+    override var tag: String {
+        get {
+            return "tr"
+        }
+    }
+}

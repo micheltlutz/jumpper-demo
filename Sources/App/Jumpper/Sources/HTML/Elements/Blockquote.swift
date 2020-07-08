@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class Blockquote: GenericElement {
+public final class Blockquote: GenericElement {
     override var tag: String {
         get {
             return "blockquote"
@@ -20,7 +20,7 @@ final class Blockquote: GenericElement {
         }
     }
 
-    func add<T>(_ element: T) {
+    public func add<T>(_ element: T) {
         if let textElement = element as? String {
             let text = factoryTextWith(textElement)
 

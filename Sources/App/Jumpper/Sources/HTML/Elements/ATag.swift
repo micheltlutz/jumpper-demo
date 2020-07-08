@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class Link: GenericElement {
+public final class Link: GenericElement {
     override var tag: String {
         get {
             return "a"
@@ -20,7 +20,7 @@ final class Link: GenericElement {
         }
     }
 
-    func add<T>(_ element: T) {
+    public func add<T>(_ element: T) {
         if let textElement = element as? String {
             let text = factoryTextWith(textElement)
 

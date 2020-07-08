@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Button: TypographyElementBase {
+public class Button: TypographyElementBase {
     override var tag: String {
         get {
             return "button"

@@ -7,7 +7,7 @@
 
 import Foundation
 
-class TypographyElementBase: GenericElement {
+public class TypographyElementBase: GenericElement {
     public init<T>(_ element: T) {
         super.init()
 
@@ -20,7 +20,7 @@ class TypographyElementBase: GenericElement {
         }
     }
 
-    func add<T>(_ element: T) {
+    public func add<T>(_ element: T) {
         if let textElement = element as? String {
             let text = factoryTextWith(textElement)
 
