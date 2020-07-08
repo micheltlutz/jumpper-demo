@@ -31,6 +31,7 @@ struct DemoJumpper {
 
         let title = H3("Typography")
         title.addAttribute(("class","title"))
+        title.addAttribute(("style","color: #99cc00;"))
         section.add(title)
         //
         let description = Blockquote()
@@ -140,6 +141,7 @@ struct DemoJumpper {
         let labelAge = Label("Age Range")
         labelAge.addAttribute(("for", "ageRangeField"))
         fieldset.add(labelAge)
+
         let select = Select([["0-13": "0-13"],
                              ["14-17": "14-17"],
                              ["18-23": "18-23"]],
@@ -187,6 +189,11 @@ struct DemoJumpper {
         table.tableHeaders(titles: ["Name", "Age", "Height", "Location"])
 //        table.tableHeaders(titles: ["Name", "Age", "Height", "Location"], aligns: ["center", "left", "left", "left"])
 
+        table.addRow()
+        table.addInRow("Arthurito Thompson")
+        table.addInRow("52")
+        table.addInRow("1,30")
+        table.addInRow("Torresmo, RS")
         table.addRow()
         table.addInRow("Stephen Curry")
         table.addInRow("27")
