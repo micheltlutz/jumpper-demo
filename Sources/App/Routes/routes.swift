@@ -3,7 +3,7 @@ import Leaf
 
 /// Register your application's routes here.
 public func routes(_ router: Router) throws {
-    // Basic "Hello, world!" example
+    // Basic "Hello, jumpper!" example
     router.get { req -> Future<View> in
         let body = DemoJumpper().main()
 
