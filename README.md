@@ -28,9 +28,4 @@ After Xcode open, make sure the `Run` target is selected on the `My Mac` device
 
 # Elemenets Demo
 
-![Elemenets Demo](docs/jumpper_elements.mp4)
-
-
-<video width="320" height="240" controls>
-  <source src="docs/jumpper_elements.mp4" type="video/mp4">
-</video>
+[![Watch the video](docs/thumb_video.png)](https://youtu.be/p3vQgugZ0ZQ)
