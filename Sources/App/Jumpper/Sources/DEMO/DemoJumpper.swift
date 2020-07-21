@@ -23,6 +23,7 @@
 //
 
 import Foundation
+import jumpper
 
 struct DemoJumpper {
     // MARK: - Typography
@@ -167,7 +168,7 @@ struct DemoJumpper {
         fieldset.add(inputSubmit)
         //
         form.add(fieldset)
-        
+
         section.add(form)
         return section
     }

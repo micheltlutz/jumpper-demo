@@ -1,5 +1,4 @@
 import FluentSQLite
-import FluentPostgreSQL
 import Vapor
 import Leaf
 
@@ -7,7 +6,6 @@ import Leaf
 public func configure(_ config: inout Config, _ env: inout Environment, _ services: inout Services) throws {
     // Register providers first
     try services.register(FluentSQLiteProvider())
-//    try services.register(FluentPostgreSQLProvider())
     try services.register(LeafProvider())
 
     /// Configure IP And Port

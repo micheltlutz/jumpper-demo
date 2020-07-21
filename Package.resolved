@@ -47,15 +47,6 @@
         }
       },
       {
-        "package": "FluentPostgreSQL",
-        "repositoryURL": "https://github.com/vapor/fluent-postgresql.git",
-        "state": {
-          "branch": null,
-          "revision": "a3d6587a64ff95cc3d5830d2d08dbe0638753716",
-          "version": "1.0.1"
-        }
-      },
-      {
         "package": "FluentSQLite",
         "repositoryURL": "https://github.com/vapor/fluent-sqlite.git",
         "state": {
@@ -74,12 +65,12 @@
         }
       },
       {
-        "package": "JWT",
-        "repositoryURL": "https://github.com/vapor/jwt.git",
+        "package": "jumpper",
+        "repositoryURL": "https://github.com/jumpper/jumpper.git",
         "state": {
           "branch": null,
-          "revision": "03c8c11f9dd895de2e8edc451a6e375409146a55",
-          "version": "3.1.2"
+          "revision": "75b3dadba05f700b0c0b5d76ee78021594ac1420",
+          "version": "0.0.1"
         }
       },
       {
@@ -96,17 +87,8 @@
         "repositoryURL": "https://github.com/vapor/multipart.git",
         "state": {
           "branch": null,
-          "revision": "a7e0db512ff7eee7cd91d0a69dfeeec36f74d604",
-          "version": "3.1.2"
-        }
-      },
-      {
-        "package": "PostgreSQL",
-        "repositoryURL": "https://github.com/vapor/postgresql.git",
-        "state": {
-          "branch": null,
-          "revision": "489537a4bd59afb9e162e9c7d423623a748b5ec0",
-          "version": "1.6.0"
+          "revision": "fb216c5a8ef07dcd90aec8a4155e86c831acce97",
+          "version": "3.1.3"
         }
       },
       {
