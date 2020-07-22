@@ -15,7 +15,7 @@
 
 # Open source
 
-> This projetct use a simple and beautiful and minimalist CSS framework 
+> This projetct use a simple, beautiful and minimalist CSS framework 
 
 - [milligram.io](https://milligram.io)
 
