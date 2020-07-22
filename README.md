@@ -40,3 +40,10 @@ After Xcode open, make sure the `Run` target is selected on the `My Mac` device
 # Elemenets video Demo
 
 [![Watch the video](docs/thumb_video.png)](https://youtu.be/p3vQgugZ0ZQ)
+
+
+
+
+https://github.com/jumpper
+
+
