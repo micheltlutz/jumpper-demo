@@ -164,7 +164,7 @@ struct DemoJumpper {
         fieldset.add(div)
         //
         let inputSubmit = Submit("Send")
-        inputSubmit.addAttribute(("class","button-primary") )
+        inputSubmit.addAttribute(("class","button-primary"))
         fieldset.add(inputSubmit)
         //
         form.add(fieldset)

@@ -10,7 +10,18 @@
 # Dependencies
 
 - [Vapor 3](https://docs.vapor.codes/3.0/install/macos/)
+- [jumpper](https://github.com/jumpper/jumpper)
 
+
+# Open source
+
+> This projetct use a simple and beautiful and minimalist CSS framework 
+
+- [milligram.io](https://milligram.io)
+
+# Documentation
+
+- [Online Doc](http://jumpper-docs.micheltlutz.me)
 
 # First Run
 
@@ -21,11 +32,11 @@ To install vapor dependencies run `vapor update` Confirm any questions in termin
 After Xcode open, make sure the `Run` target is selected on the `My Mac` device
 
 
-# See demo run
+# See your demo run
 
 [Open your localhost](http://localhost:8080)
 
 
-# Elemenets Demo
+# Elemenets video Demo
 
 [![Watch the video](docs/thumb_video.png)](https://youtu.be/p3vQgugZ0ZQ)
